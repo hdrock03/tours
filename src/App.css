@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(190, 190, 201);
+  /* height: 100vh; */
 }
 
 .App-logo {
@@ -39,3 +45,38 @@
 
 
 
+.container{
+  height: 50rem;
+  width: 40rem;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+
+}
+
+.up img{
+  height: 30rem;
+  width: 40rem;
+  background:  no-repeat center center/cover;
+  
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+.desc{
+  font-weight: 600;
+}
+.content{
+  text-align: left;
+  margin: 0 5px;
+}
+
+button{
+  margin-left: 40%;
+  margin-top: 15px;
+  color: red;
+  padding: 5px 25px;
+}
